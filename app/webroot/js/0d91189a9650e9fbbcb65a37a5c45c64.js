@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#pago").bind("change", function (event) {$.ajax({async:true, data:$("#pago").serialize(), dataType:"html", success:function (data, textStatus) {$("#dias").html(data);}, type:"post", url:"\/EgoGym\/Users\/getValor"});
+return false;});});

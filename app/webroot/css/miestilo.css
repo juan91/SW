@@ -1,0 +1,146 @@
+input.buscar{
+  
+   background:#FFFFFF  url("../img/buscar.png") no-repeat;
+   width:40%;
+   padding: 5px 5px 5px 32px;
+   background-position: left center;
+   }
+
+#sel_buscar{
+	width: 500px;
+	margin: -50px 0 -50px -10px;
+}
+
+#sel_buscar input{
+
+	width: 450px;
+}
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#FFAB23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#precio {
+	background: transparent;
+	color: #272822;
+	width: 100px;
+	font-weight: bold;
+	
+}
+#cabecera
+{
+	width: 1300px;
+	height: 160px;
+	background-image: url('../img/cabecera.jpg') ;
+	padding: 5px;
+	margin: auto;
+	border-radius: 5px;
+	position: relative;
+	 background-repeat: no-repeat;
+	 display: none;
+}
+
+#cabecera ul {
+	padding: 5px;
+	margin: auto;
+	text-align: center;
+	margin-top: 115px;
+
+}
+
+#cabecera ul li {
+	display: inline;
+	text-decoration: none;
+	padding:3px;
+	
+
+}
+
+#cabecera ul li a {
+
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#cabecera ul li a:hover {
+color:#4D4F44;
+
+}
+
+#logo {
+
+	background-image: url('../img/ego.jpg');
+	width: 800px;
+	height: 800px;
+	opacity: 0.8;
+	margin: auto;
+	margin-top: 50px;
+	
+
+}
+
+/* para la fecha*/
+#fecha_creado{
+	width: 30%;
+}
+#fecha_creado1{
+	width: 30%;
+}
+
+#lanzador{
+	width: 16px;
+	float: left;
+	margin-top: -50px;
+	margin-left: 190px;
+}
+
+#lanzador1{
+	width: 16px;
+	float: left;
+	margin-top: -50px;
+	margin-left: 190px;
+}
+/*fin calendario*/
+#no_activo  {
+
+	background:#FF6262;
+}
